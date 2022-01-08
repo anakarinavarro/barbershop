@@ -1,0 +1,20 @@
+header{
+    background-color: $eerie-black;
+    img{
+        height: 45px;
+        width: 78px;
+    }
+    .nav-item{
+        a.nav-link{
+            color: $white;
+            font-family: $roboto;
+            font-weight: $font-light;
+        } 
+        .nav-color{
+            color: $fuzzy-wuzzy !important;
+            font-family: $roboto;
+            font-weight: $font-light;
+        }
+    }
+}
+

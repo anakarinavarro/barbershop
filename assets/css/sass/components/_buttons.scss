@@ -1,0 +1,20 @@
+button{
+    &.btn{
+        border-radius: $redondear;
+        background-color: $raisin-black;
+        color: $white;
+        border: none;
+        &:hover{
+            background-color: $platinum;
+
+        }
+        &:focus{
+            background-color:$nickel ;
+
+        }
+        &:active{
+            background-color: $nickel;
+        }
+    }
+
+}

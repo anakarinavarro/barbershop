@@ -1,0 +1,96 @@
+main{
+    .main__section-uno{
+        background-image: url("../img/post-image.jpg");
+        background-position: center;
+        background-size: cover;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $playfair;
+        font-size: $xx-large;
+        font-style: italic;
+        height: 600px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .main__section-dos{
+        p{
+            font-family: $roboto;
+            font-size: $medium;
+            font-weight: $font-light;
+            margin-bottom: 20px;
+            color: $nickel;
+            span{
+                color: $ruddy-pink;
+            }
+
+        }
+    
+    }
+
+}
+.main__section-tres{
+    img{
+        border-radius: 50%;
+        width: 100%;
+    }
+    .main__section-tres--h{
+        text-align: center;
+        font-family: $playfair;
+        font-size: $medium;
+        font-style: italic;
+        color: $nickel;
+        span{
+            color: $fuzzy-wuzzy;
+            font-size: xx-small;
+        }
+    }
+    .main__section-tres--text{
+        text-align: center;
+        font-family: $roboto;
+        font-size: $small;
+        color: $nickel;
+    }
+}
+.main__section-cuatro--paginacion{
+    background-color: $light-grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .pagination{
+        align-content: center;
+        display: flex;
+        margin-bottom: 0;
+        .active{
+            a{
+             background-color:  $raisin-black;
+            color: #fff;   
+            }
+            
+        }
+        .first{
+            border-top-left-radius: 1.25rem;
+            border-bottom-left-radius: 1.25rem;
+        }
+        .last{
+            border-top-right-radius: 1.25rem;
+            border-bottom-right-radius: 1.25rem;
+
+        }
+        .page-link {
+            position: relative;
+            display: block;
+            padding: 0.5rem 0.75rem;
+            margin-left: -1px;
+            line-height: 1.25;
+            color: $raisin-black;
+            background-color: #fff;
+            border: 1px solid $raisin-black;
+        }
+
+    }
+
+}
+
